@@ -1,0 +1,2 @@
+<p data-node-id="<?php echo e($node['id']); ?>" style="<?php echo e($style); ?>"><?php echo e($node['content']['text'] ?? ''); ?></p>
+<?php /**PATH C:\laragon\www\visual-builder\resources\views/builder/blocks/text.blade.php ENDPATH**/ ?>

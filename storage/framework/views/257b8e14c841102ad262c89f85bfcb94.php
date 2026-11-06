@@ -1,0 +1,2 @@
+<<?php echo e($node['settings']['tag'] ?? 'section'); ?> data-node-id="<?php echo e($node['id']); ?>" style="<?php echo e($style); ?>"><?php echo $children; ?></<?php echo e($node['settings']['tag'] ?? 'section'); ?>>
+<?php /**PATH C:\laragon\www\visual-builder\resources\views/builder/blocks/section.blade.php ENDPATH**/ ?>

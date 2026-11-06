@@ -1,0 +1,1 @@
+<a data-node-id="{{ $node['id'] }}" href="{{ $node['content']['url'] ?? '#' }}" target="{{ $node['settings']['target'] ?? '_self' }}" @if(($node['settings']['target'] ?? '_self') === '_blank') rel="noopener noreferrer" @endif style="{{ $style }}">{{ $node['content']['label'] ?? '' }}</a>
